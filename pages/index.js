@@ -5,7 +5,8 @@ export default function Home() {
     { id: 3, name: 'High-Rise Wide Jeans', brand: 'Mango', price: 5950, img: 'https://picsum.photos/seed/jeans/600/800' },
     { id: 4, name: 'Structured Blazer', brand: 'Zara', price: 9990, img: 'https://picsum.photos/seed/blazer/600/800' },
   ];
-  const money = (cents:number) => `$${(cents/100).toFixed(2)}`;
+  const money = (cents) => `$${(cents/100).toFixed(2)}`;
+
 
   return (
     <div className="min-h-screen bg-gray-50">
